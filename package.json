@@ -17,8 +17,11 @@
       "url": "https://jhermsmeier.de/"
     }
   ],
+  "dependencies": {},
   "devDependencies": {
     "bencoding": "latest",
+    "bignumber.js": "latest",
+    "bn.js": "latest",
     "bncode": "latest",
     "dht-bencode": "latest",
     "dht.js": "latest",
