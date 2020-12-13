@@ -197,4 +197,10 @@ test('bencode#encode()', function (t) {
     t.plan(1)
     t.deepEqual(result, expected)
   })
+
+  t.test('should encode large numbers with full digits', function (t) {
+    t.plan(1)
+    var data = 340282366920938463463374607431768211456
+    t.equal(bencode.encode(data).toString(), 'i340282366920938463463374607431768211456e')
+  })
 })
