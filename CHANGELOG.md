@@ -1,3 +1,7 @@
+## 2.0.1
+
+- remove the safe-buffer dependency (@jimmywarting)
+
 ## 2.0.0
 
 - Drop support for Node 0.10, 0.12., add support for Node 8 & 9  (@jhermsmeier)
